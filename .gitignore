@@ -1,17 +1,46 @@
+# Python
 __pycache__/
 *.py[cod]
 *.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environment
 venv/
 env/
+ENV/
+.venv/
+
+# Build & Distribution
 build/
+dist/
 *.spec
-*.txt
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Data files (sesuaikan)
 *.xlsx
+*.xls
+*.csv
 *.png
-*.ico
+*.jpg
+*.jpeg
+*.log
+
+# Browser drivers
 chromedriver*
 geckodriver*
+msedgedriver*
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Project specific
+extracted_tmo_*.json     # <-- tambahkan ini kalau mau ignore JSON hasil extract
+*.txt                    # hati-hati, ini ignore SEMUA .txt
