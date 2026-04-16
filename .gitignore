@@ -4,6 +4,8 @@ __pycache__/
 venv/
 env/
 build/
+*.spec
+*.txt
 .vscode/
 .idea/
 *.xlsx

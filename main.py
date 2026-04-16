@@ -1,8 +1,8 @@
 # main.py — FINAL FIX LOG GAK KEDIP LAGI 100% JALAN
 import customtkinter as ctk
-from xgui import RoboTMOAppUI
-from logic import TMOLogic
-from config import modal_tmo_configs, modal_tmo_action, sn_device_configs, file_input_configs
+from ui.xgui import RoboTMOAppUI
+from core.logic import TMOLogic
+from utils.config import modal_tmo_configs, modal_tmo_action, sn_device_configs, file_input_configs
 
 import requests
 from datetime import datetime
